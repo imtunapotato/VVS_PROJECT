@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;sut.EqualsTest&apos; to &apos;LBCoverage&apos;&#x0D;&#x0A;- Original project: &apos;vvs_2324_assignment_1&apos;&#x0D;&#x0A;- Original element: &apos;sut.EqualsTest&apos;&#x0D;&#x0A;- Renamed element: &apos;sut.LBCoverage&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;EqualsTest&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src\/test\/java=/optional=/true=/=/maven.pomderived=/true=/=/test=/true=/&lt;sut{EqualsTest.java[EqualsTest" matchStrategy="1" name="LBCoverage" qualified="false" references="true" similarDeclarations="false" stamp="1713458494235" textual="false" version="1.0"/>
+</session>

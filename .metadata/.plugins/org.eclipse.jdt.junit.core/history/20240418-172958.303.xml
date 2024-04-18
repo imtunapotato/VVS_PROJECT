@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="EqualsTest" project="vvs_2324_assignment_1" tests="58" started="58" failures="2" errors="0" ignored="0">
+  <testsuite name="sut.EqualsTest" time="0.014" uniqueid="[engine:junit-vintage]/[runner:sut.EqualsTest]">
+    <testcase name="testMinLeafTree" classname="sut.EqualsTest" time="0.0" displayname="testMinLeafTree" uniqueid="[engine:junit-vintage]/[runner:sut.EqualsTest]/[test:testMinLeafTree(sut.EqualsTest)]"/>
+    <testcase name="testToListCompare" classname="sut.EqualsTest" time="0.0" displayname="testToListCompare" uniqueid="[engine:junit-vintage]/[runner:sut.EqualsTest]/[test:testToListCompare(sut.EqualsTest)]"/>
+    <testcase name="testSizeWithOneElement" classname="sut.EqualsTest" time="0.0" displayname="testSizeWithOneElement" uniqueid="[engine:junit-vintage]/[runner:sut.EqualsTest]/[test:testSizeWithOneElement(sut.EqualsTest)]"/>
+    <testcase name="testDeleteSmallerThanRoot" classname="sut.EqualsTest" time="0.0" displayname="testDeleteSmallerThanRoot" uniqueid="[engine:junit-vintage]/[runner:sut.EqualsTest]/[test:testDeleteSmallerThanRoot(sut.EqualsTest)]"/>
+    <testcase name="testContainsInChildren" classname="sut.EqualsTest" time="0.0" displayname="testContainsInChildren" uniqueid="[engine:junit-vintage]/[runner:sut.EqualsTest]/[test:testContainsInChildren(sut.EqualsTest)]"/>
+    <testcase name="testDeleteCompact" classname="sut.EqualsTest" time="0.0" displayname="testDeleteCompact" uniqueid="[engine:junit-vintage]/[runner:sut.EqualsTest]/[test:testDeleteCompact(sut.EqualsTest)]"/>
+    <testcase name="testInsertBiggerThanChildren" classname="sut.EqualsTest" time="0.0" displayname="testInsertBiggerThanChildren" uniqueid="[engine:junit-vintage]/[runner:sut.EqualsTest]/[test:testInsertBiggerThanChildren(sut.EqualsTest)]"/>
+    <testcase name="testIsLeafTreeWithMoreElements" classname="sut.EqualsTest" time="0.0" displayname="testIsLeafTreeWithMoreElements" uniqueid="[engine:junit-vintage]/[runner:sut.EqualsTest]/[test:testIsLeafTreeWithMoreElements(sut.EqualsTest)]"/>
+    <testcase name="testMaxElementOfTree" classname="sut.EqualsTest" time="0.0" displayname="testMaxElementOfTree" uniqueid="[engine:junit-vintage]/[runner:sut.EqualsTest]/[test:testMaxElementOfTree(sut.EqualsTest)]"/>
+    <testcase name="testEmptyTreeWithElements" classname="sut.EqualsTest" time="0.0" displayname="testEmptyTreeWithElements" uniqueid="[engine:junit-vintage]/[runner:sut.EqualsTest]/[test:testEmptyTreeWithElements(sut.EqualsTest)]"/>
+    <testcase name="testEqualsObjectOther" classname="sut.EqualsTest" time="0.0" displayname="testEqualsObjectOther" uniqueid="[engine:junit-vintage]/[runner:sut.EqualsTest]/[test:testEqualsObjectOther(sut.EqualsTest)]"/>
+    <testcase name="testMaxLeafTree" classname="sut.EqualsTest" time="0.0" displayname="testMaxLeafTree" uniqueid="[engine:junit-vintage]/[runner:sut.EqualsTest]/[test:testMaxLeafTree(sut.EqualsTest)]"/>
+    <testcase name="testEqualsEqualTrees" classname="sut.EqualsTest" time="0.0" displayname="testEqualsEqualTrees" uniqueid="[engine:junit-vintage]/[runner:sut.EqualsTest]/[test:testEqualsEqualTrees(sut.EqualsTest)]"/>
+    <testcase name="testCountLeavesTreeWithOneElement" classname="sut.EqualsTest" time="0.0" displayname="testCountLeavesTreeWithOneElement" uniqueid="[engine:junit-vintage]/[runner:sut.EqualsTest]/[test:testCountLeavesTreeWithOneElement(sut.EqualsTest)]"/>
+    <testcase name="testEmpty" classname="sut.EqualsTest" time="0.0" displayname="testEmpty" uniqueid="[engine:junit-vintage]/[runner:sut.EqualsTest]/[test:testEmpty(sut.EqualsTest)]"/>
+    <testcase name="testInsertNewRoot" classname="sut.EqualsTest" time="0.0" displayname="testInsertNewRoot" uniqueid="[engine:junit-vintage]/[runner:sut.EqualsTest]/[test:testInsertNewRoot(sut.EqualsTest)]"/>
+    <testcase name="testContainsNotContainSmaller" classname="sut.EqualsTest" time="0.0" displayname="testContainsNotContainSmaller" uniqueid="[engine:junit-vintage]/[runner:sut.EqualsTest]/[test:testContainsNotContainSmaller(sut.EqualsTest)]"/>
+    <testcase name="testContainsElementAtRoot" classname="sut.EqualsTest" time="0.0" displayname="testContainsElementAtRoot" uniqueid="[engine:junit-vintage]/[runner:sut.EqualsTest]/[test:testContainsElementAtRoot(sut.EqualsTest)]"/>
+    <testcase name="testInsertAtPositionPlusOne" classname="sut.EqualsTest" time="0.0" displayname="testInsertAtPositionPlusOne" uniqueid="[engine:junit-vintage]/[runner:sut.EqualsTest]/[test:testInsertAtPositionPlusOne(sut.EqualsTest)]"/>
+    <testcase name="testContainsEmptyTree" classname="sut.EqualsTest" time="0.0" displayname="testContainsEmptyTree" uniqueid="[engine:junit-vintage]/[runner:sut.EqualsTest]/[test:testContainsEmptyTree(sut.EqualsTest)]"/>
+    <testcase name="testDeleteEmptyTree" classname="sut.EqualsTest" time="0.001" displayname="testDeleteEmptyTree" uniqueid="[engine:junit-vintage]/[runner:sut.EqualsTest]/[test:testDeleteEmptyTree(sut.EqualsTest)]">
+      <failure>
+        <expected>0</expected>
+        <actual>1</actual>
+        org.opentest4j.AssertionFailedError: delete empty ==&gt; expected: &lt;0&gt; but was: &lt;1&gt;&#13;
+	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:52)&#13;
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:177)&#13;
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:144)&#13;
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:139)&#13;
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:307)&#13;
+	at sut.EqualsTest.testDeleteEmptyTree(EqualsTest.java:143)&#13;
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#13;
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#13;
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#13;
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)&#13;
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)&#13;
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)&#13;
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)&#13;
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)&#13;
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)&#13;
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)&#13;
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)&#13;
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)&#13;
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)&#13;
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)&#13;
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)&#13;
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)&#13;
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)&#13;
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)&#13;
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)&#13;
+	at org.junit.vintage.engine.execution.RunnerExecutor.execute(RunnerExecutor.java:42)&#13;
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183)&#13;
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)&#13;
+	at java.base/java.util.Iterator.forEachRemaining(Iterator.java:133)&#13;
+	at java.base/java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1845)&#13;
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)&#13;
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)&#13;
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150)&#13;
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173)&#13;
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)&#13;
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)&#13;
+	at org.junit.vintage.engine.VintageTestEngine.executeAllChildren(VintageTestEngine.java:83)&#13;
+	at org.junit.vintage.engine.VintageTestEngine.execute(VintageTestEngine.java:74)&#13;
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:170)&#13;
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:154)&#13;
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:90)&#13;
+	at org.eclipse.jdt.internal.junit5.runner.JUnit5TestReference.run(JUnit5TestReference.java:102)&#13;
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:40)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:529)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:757)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:452)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:210)&#13;
+&#13;
+
+      </failure>
+    </testcase>
+    <testcase name="testHeightEmptyTree" classname="sut.EqualsTest" time="0.0" displayname="testHeightEmptyTree" uniqueid="[engine:junit-vintage]/[runner:sut.EqualsTest]/[test:testHeightEmptyTree(sut.EqualsTest)]"/>
+    <testcase name="testEqualsTwoEmptyTrees" classname="sut.EqualsTest" time="0.002" displayname="testEqualsTwoEmptyTrees" uniqueid="[engine:junit-vintage]/[runner:sut.EqualsTest]/[test:testEqualsTwoEmptyTrees(sut.EqualsTest)]"/>
+    <testcase name="testInsertSpecialCase" classname="sut.EqualsTest" time="0.0" displayname="testInsertSpecialCase" uniqueid="[engine:junit-vintage]/[runner:sut.EqualsTest]/[test:testInsertSpecialCase(sut.EqualsTest)]"/>
+    <testcase name="testHasNextTrue" classname="sut.EqualsTest" time="0.0" displayname="testHasNextTrue" uniqueid="[engine:junit-vintage]/[runner:sut.EqualsTest]/[test:testHasNextTrue(sut.EqualsTest)]"/>
+    <testcase name="testMinTreeMoreElements" classname="sut.EqualsTest" time="0.0" displayname="testMinTreeMoreElements" uniqueid="[engine:junit-vintage]/[runner:sut.EqualsTest]/[test:testMinTreeMoreElements(sut.EqualsTest)]"/>
+    <testcase name="testToStringMultipleElems" classname="sut.EqualsTest" time="0.0" displayname="testToStringMultipleElems" uniqueid="[engine:junit-vintage]/[runner:sut.EqualsTest]/[test:testToStringMultipleElems(sut.EqualsTest)]"/>
+    <testcase name="testInsertContains" classname="sut.EqualsTest" time="0.0" displayname="testInsertContains" uniqueid="[engine:junit-vintage]/[runner:sut.EqualsTest]/[test:testInsertContains(sut.EqualsTest)]"/>
+    <testcase name="testEqualsSecondTreeBigger" classname="sut.EqualsTest" time="0.0" displayname="testEqualsSecondTreeBigger" uniqueid="[engine:junit-vintage]/[runner:sut.EqualsTest]/[test:testEqualsSecondTreeBigger(sut.EqualsTest)]"/>
+    <testcase name="testEqualsFirstTreeBigger" classname="sut.EqualsTest" time="0.0" displayname="testEqualsFirstTreeBigger" uniqueid="[engine:junit-vintage]/[runner:sut.EqualsTest]/[test:testEqualsFirstTreeBigger(sut.EqualsTest)]"/>
+    <testcase name="testInsertTreeIsLeafSmaller" classname="sut.EqualsTest" time="0.0" displayname="testInsertTreeIsLeafSmaller" uniqueid="[engine:junit-vintage]/[runner:sut.EqualsTest]/[test:testInsertTreeIsLeafSmaller(sut.EqualsTest)]"/>
+    <testcase name="testDeleteBiggerElement" classname="sut.EqualsTest" time="0.0" displayname="testDeleteBiggerElement" uniqueid="[engine:junit-vintage]/[runner:sut.EqualsTest]/[test:testDeleteBiggerElement(sut.EqualsTest)]"/>
+    <testcase name="testInfoEmptyTree" classname="sut.EqualsTest" time="0.0" displayname="testInfoEmptyTree" uniqueid="[engine:junit-vintage]/[runner:sut.EqualsTest]/[test:testInfoEmptyTree(sut.EqualsTest)]"/>
+    <testcase name="testContainsEqual" classname="sut.EqualsTest" time="0.0" displayname="testContainsEqual" uniqueid="[engine:junit-vintage]/[runner:sut.EqualsTest]/[test:testContainsEqual(sut.EqualsTest)]"/>
+    <testcase name="testIsLeafEmptyTree" classname="sut.EqualsTest" time="0.0" displayname="testIsLeafEmptyTree" uniqueid="[engine:junit-vintage]/[runner:sut.EqualsTest]/[test:testIsLeafEmptyTree(sut.EqualsTest)]"/>
+    <testcase name="testCloneTree" classname="sut.EqualsTest" time="0.001" displayname="testCloneTree" uniqueid="[engine:junit-vintage]/[runner:sut.EqualsTest]/[test:testCloneTree(sut.EqualsTest)]"/>
+    <testcase name="testDeleteSmallerElement" classname="sut.EqualsTest" time="0.0" displayname="testDeleteSmallerElement" uniqueid="[engine:junit-vintage]/[runner:sut.EqualsTest]/[test:testDeleteSmallerElement(sut.EqualsTest)]"/>
+    <testcase name="testEqualsTreesSameReferences" classname="sut.EqualsTest" time="0.0" displayname="testEqualsTreesSameReferences" uniqueid="[engine:junit-vintage]/[runner:sut.EqualsTest]/[test:testEqualsTreesSameReferences(sut.EqualsTest)]"/>
+    <testcase name="testToStringEmptyTree" classname="sut.EqualsTest" time="0.0" displayname="testToStringEmptyTree" uniqueid="[engine:junit-vintage]/[runner:sut.EqualsTest]/[test:testToStringEmptyTree(sut.EqualsTest)]"/>
+    <testcase name="testInsertTreeIsLeafBigger" classname="sut.EqualsTest" time="0.001" displayname="testInsertTreeIsLeafBigger" uniqueid="[engine:junit-vintage]/[runner:sut.EqualsTest]/[test:testInsertTreeIsLeafBigger(sut.EqualsTest)]"/>
+    <testcase name="testInsertMenorQMax" classname="sut.EqualsTest" time="0.0" displayname="testInsertMenorQMax" uniqueid="[engine:junit-vintage]/[runner:sut.EqualsTest]/[test:testInsertMenorQMax(sut.EqualsTest)]"/>
+    <testcase name="testSizeWithTwoElements" classname="sut.EqualsTest" time="0.0" displayname="testSizeWithTwoElements" uniqueid="[engine:junit-vintage]/[runner:sut.EqualsTest]/[test:testSizeWithTwoElements(sut.EqualsTest)]"/>
+    <testcase name="testIsLeafTreeWithOneElementIsLeaf" classname="sut.EqualsTest" time="0.001" displayname="testIsLeafTreeWithOneElementIsLeaf" uniqueid="[engine:junit-vintage]/[runner:sut.EqualsTest]/[test:testIsLeafTreeWithOneElementIsLeaf(sut.EqualsTest)]"/>
+    <testcase name="testNextEmptyStack" classname="sut.EqualsTest" time="0.0" displayname="testNextEmptyStack" uniqueid="[engine:junit-vintage]/[runner:sut.EqualsTest]/[test:testNextEmptyStack(sut.EqualsTest)]"/>
+    <testcase name="testInsertEmptyTree" classname="sut.EqualsTest" time="0.001" displayname="testInsertEmptyTree" uniqueid="[engine:junit-vintage]/[runner:sut.EqualsTest]/[test:testInsertEmptyTree(sut.EqualsTest)]"/>
+    <testcase name="testCountLeavesTreeMoreElements" classname="sut.EqualsTest" time="0.0" displayname="testCountLeavesTreeMoreElements" uniqueid="[engine:junit-vintage]/[runner:sut.EqualsTest]/[test:testCountLeavesTreeMoreElements(sut.EqualsTest)]"/>
+    <testcase name="testInfoTree" classname="sut.EqualsTest" time="0.0" displayname="testInfoTree" uniqueid="[engine:junit-vintage]/[runner:sut.EqualsTest]/[test:testInfoTree(sut.EqualsTest)]"/>
+    <testcase name="testSizeEmptyTree" classname="sut.EqualsTest" time="0.0" displayname="testSizeEmptyTree" uniqueid="[engine:junit-vintage]/[runner:sut.EqualsTest]/[test:testSizeEmptyTree(sut.EqualsTest)]">
+      <failure>
+        <expected>0</expected>
+        <actual>1</actual>
+        org.opentest4j.AssertionFailedError: size ==&gt; expected: &lt;0&gt; but was: &lt;1&gt;&#13;
+	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:52)&#13;
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:177)&#13;
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:144)&#13;
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:139)&#13;
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:307)&#13;
+	at sut.EqualsTest.testSizeEmptyTree(EqualsTest.java:742)&#13;
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#13;
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#13;
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#13;
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)&#13;
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)&#13;
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)&#13;
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)&#13;
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)&#13;
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)&#13;
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)&#13;
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)&#13;
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)&#13;
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)&#13;
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)&#13;
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)&#13;
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)&#13;
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)&#13;
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)&#13;
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)&#13;
+	at org.junit.vintage.engine.execution.RunnerExecutor.execute(RunnerExecutor.java:42)&#13;
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183)&#13;
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)&#13;
+	at java.base/java.util.Iterator.forEachRemaining(Iterator.java:133)&#13;
+	at java.base/java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1845)&#13;
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)&#13;
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)&#13;
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150)&#13;
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173)&#13;
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)&#13;
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)&#13;
+	at org.junit.vintage.engine.VintageTestEngine.executeAllChildren(VintageTestEngine.java:83)&#13;
+	at org.junit.vintage.engine.VintageTestEngine.execute(VintageTestEngine.java:74)&#13;
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:170)&#13;
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:154)&#13;
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:90)&#13;
+	at org.eclipse.jdt.internal.junit5.runner.JUnit5TestReference.run(JUnit5TestReference.java:102)&#13;
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:40)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:529)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:757)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:452)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:210)&#13;
+&#13;
+
+      </failure>
+    </testcase>
+    <testcase name="testEqualsNotEqualTrees" classname="sut.EqualsTest" time="0.0" displayname="testEqualsNotEqualTrees" uniqueid="[engine:junit-vintage]/[runner:sut.EqualsTest]/[test:testEqualsNotEqualTrees(sut.EqualsTest)]"/>
+    <testcase name="testDeleteRoot" classname="sut.EqualsTest" time="0.0" displayname="testDeleteRoot" uniqueid="[engine:junit-vintage]/[runner:sut.EqualsTest]/[test:testDeleteRoot(sut.EqualsTest)]"/>
+    <testcase name="testInsertSmallerThanLastChild" classname="sut.EqualsTest" time="0.0" displayname="testInsertSmallerThanLastChild" uniqueid="[engine:junit-vintage]/[runner:sut.EqualsTest]/[test:testInsertSmallerThanLastChild(sut.EqualsTest)]"/>
+    <testcase name="testHasNextFalse" classname="sut.EqualsTest" time="0.0" displayname="testHasNextFalse" uniqueid="[engine:junit-vintage]/[runner:sut.EqualsTest]/[test:testHasNextFalse(sut.EqualsTest)]"/>
+    <testcase name="testHeightMultipleElementsTree" classname="sut.EqualsTest" time="0.0" displayname="testHeightMultipleElementsTree" uniqueid="[engine:junit-vintage]/[runner:sut.EqualsTest]/[test:testHeightMultipleElementsTree(sut.EqualsTest)]"/>
+    <testcase name="testInsertSmallerThanChildren" classname="sut.EqualsTest" time="0.0" displayname="testInsertSmallerThanChildren" uniqueid="[engine:junit-vintage]/[runner:sut.EqualsTest]/[test:testInsertSmallerThanChildren(sut.EqualsTest)]"/>
+    <testcase name="testToListEmptyTree" classname="sut.EqualsTest" time="0.0" displayname="testToListEmptyTree" uniqueid="[engine:junit-vintage]/[runner:sut.EqualsTest]/[test:testToListEmptyTree(sut.EqualsTest)]"/>
+    <testcase name="testToStringLeaf" classname="sut.EqualsTest" time="0.0" displayname="testToStringLeaf" uniqueid="[engine:junit-vintage]/[runner:sut.EqualsTest]/[test:testToStringLeaf(sut.EqualsTest)]"/>
+    <testcase name="testContainsNotContainLarger" classname="sut.EqualsTest" time="0.0" displayname="testContainsNotContainLarger" uniqueid="[engine:junit-vintage]/[runner:sut.EqualsTest]/[test:testContainsNotContainLarger(sut.EqualsTest)]"/>
+    <testcase name="testEqualsTreeContainsOther" classname="sut.EqualsTest" time="0.0" displayname="testEqualsTreeContainsOther" uniqueid="[engine:junit-vintage]/[runner:sut.EqualsTest]/[test:testEqualsTreeContainsOther(sut.EqualsTest)]"/>
+  </testsuite>
+</testrun>

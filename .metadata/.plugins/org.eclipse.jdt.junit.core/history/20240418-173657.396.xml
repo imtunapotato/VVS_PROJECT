@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="EqualsTest" project="vvs_2324_assignment_1" tests="9" started="9" failures="0" errors="1" ignored="0">
+  <testsuite name="sut.EqualsTest" time="0.0" uniqueid="[engine:junit-vintage]/[runner:sut.EqualsTest]">
+    <testcase name="testEqualsObjectOther" classname="sut.EqualsTest" time="0.0" displayname="testEqualsObjectOther" uniqueid="[engine:junit-vintage]/[runner:sut.EqualsTest]/[test:testEqualsObjectOther(sut.EqualsTest)]"/>
+    <testcase name="testEqualsEqualTrees" classname="sut.EqualsTest" time="0.0" displayname="testEqualsEqualTrees" uniqueid="[engine:junit-vintage]/[runner:sut.EqualsTest]/[test:testEqualsEqualTrees(sut.EqualsTest)]"/>
+    <testcase name="testEqualsTwoEmptyTrees" classname="sut.EqualsTest" time="0.0" displayname="testEqualsTwoEmptyTrees" uniqueid="[engine:junit-vintage]/[runner:sut.EqualsTest]/[test:testEqualsTwoEmptyTrees(sut.EqualsTest)]"/>
+    <testcase name="testEqualsSecondTreeBigger" classname="sut.EqualsTest" time="0.0" displayname="testEqualsSecondTreeBigger" uniqueid="[engine:junit-vintage]/[runner:sut.EqualsTest]/[test:testEqualsSecondTreeBigger(sut.EqualsTest)]"/>
+    <testcase name="testEqualsFirstTreeBigger" classname="sut.EqualsTest" time="0.0" displayname="testEqualsFirstTreeBigger" uniqueid="[engine:junit-vintage]/[runner:sut.EqualsTest]/[test:testEqualsFirstTreeBigger(sut.EqualsTest)]"/>
+    <testcase name="test" classname="sut.EqualsTest" time="0.0" displayname="test" uniqueid="[engine:junit-vintage]/[runner:sut.EqualsTest]/[test:test(sut.EqualsTest)]">
+      <error>java.lang.NullPointerException: Cannot invoke "Object.equals(Object)" because the return value of "java.util.Iterator.next()" is null&#13;
+	at sut.ArrayNTree.equalTrees(ArrayNTree.java:308)&#13;
+	at sut.ArrayNTree.equals(ArrayNTree.java:294)&#13;
+	at sut.EqualsTest.test(EqualsTest.java:125)&#13;
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#13;
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#13;
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#13;
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)&#13;
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)&#13;
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)&#13;
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)&#13;
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)&#13;
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)&#13;
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)&#13;
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)&#13;
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)&#13;
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)&#13;
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)&#13;
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)&#13;
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)&#13;
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)&#13;
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)&#13;
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)&#13;
+	at org.junit.vintage.engine.execution.RunnerExecutor.execute(RunnerExecutor.java:42)&#13;
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183)&#13;
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)&#13;
+	at java.base/java.util.Iterator.forEachRemaining(Iterator.java:133)&#13;
+	at java.base/java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1845)&#13;
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)&#13;
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)&#13;
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150)&#13;
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173)&#13;
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)&#13;
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)&#13;
+	at org.junit.vintage.engine.VintageTestEngine.executeAllChildren(VintageTestEngine.java:83)&#13;
+	at org.junit.vintage.engine.VintageTestEngine.execute(VintageTestEngine.java:74)&#13;
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:170)&#13;
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:154)&#13;
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:90)&#13;
+	at org.eclipse.jdt.internal.junit5.runner.JUnit5TestReference.run(JUnit5TestReference.java:102)&#13;
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:40)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:529)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:757)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:452)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:210)&#13;
+&#13;
+</error>
+    </testcase>
+    <testcase name="testEqualsTreesSameReferences" classname="sut.EqualsTest" time="0.0" displayname="testEqualsTreesSameReferences" uniqueid="[engine:junit-vintage]/[runner:sut.EqualsTest]/[test:testEqualsTreesSameReferences(sut.EqualsTest)]"/>
+    <testcase name="testEqualsNotEqualTrees" classname="sut.EqualsTest" time="0.0" displayname="testEqualsNotEqualTrees" uniqueid="[engine:junit-vintage]/[runner:sut.EqualsTest]/[test:testEqualsNotEqualTrees(sut.EqualsTest)]"/>
+    <testcase name="testEqualsTreeContainsOther" classname="sut.EqualsTest" time="0.0" displayname="testEqualsTreeContainsOther" uniqueid="[engine:junit-vintage]/[runner:sut.EqualsTest]/[test:testEqualsTreeContainsOther(sut.EqualsTest)]"/>
+  </testsuite>
+</testrun>

@@ -1,0 +1,11 @@
+package sut;
+
+import org.junit.Test;
+
+public class EqualsTest {
+
+	@Test
+	public void testEquals() {
+		ArrayNTree a = new ArrayNTree(2);
+	}
+}

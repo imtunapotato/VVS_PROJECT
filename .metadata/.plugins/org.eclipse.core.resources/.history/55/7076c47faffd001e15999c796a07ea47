@@ -1,0 +1,23 @@
+package sut;
+
+import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.assertTrue;
+
+import org.junit.Test;
+
+public class EdgePairCoverage {
+
+	@Test
+	public void testOneTwo(){
+		ArrayNTree<Integer> tree1 = new ArrayNTree<>(2);
+		ArrayNTree<Integer> tree2 = tree1;
+		assertTrue(tree1.equals(tree2));
+	}
+	
+	@Test
+	public void TestOneThreeFour() {
+		ArrayNTree<Integer> tree1 = new ArrayNTree<>(2);
+		int n = 2;
+		assertFalse(tree1.equals(n));
+	}
+}

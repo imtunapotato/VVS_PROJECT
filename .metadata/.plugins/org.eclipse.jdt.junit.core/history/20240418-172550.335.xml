@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="EqualsTest" project="vvs_2324_assignment_1" tests="3" started="3" failures="0" errors="0" ignored="0">
+  <testsuite name="sut.EqualsTest" time="0.0" uniqueid="[engine:junit-vintage]/[runner:sut.EqualsTest]">
+    <testcase name="testNTreeNotEquals" classname="sut.EqualsTest" time="0.0" displayname="testNTreeNotEquals" uniqueid="[engine:junit-vintage]/[runner:sut.EqualsTest]/[test:testNTreeNotEquals(sut.EqualsTest)]"/>
+    <testcase name="testEquals" classname="sut.EqualsTest" time="0.0" displayname="testEquals" uniqueid="[engine:junit-vintage]/[runner:sut.EqualsTest]/[test:testEquals(sut.EqualsTest)]"/>
+    <testcase name="testNTreeEquals" classname="sut.EqualsTest" time="0.0" displayname="testNTreeEquals" uniqueid="[engine:junit-vintage]/[runner:sut.EqualsTest]/[test:testNTreeEquals(sut.EqualsTest)]"/>
+  </testsuite>
+</testrun>

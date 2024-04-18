@@ -1,0 +1,125 @@
+package sut;
+
+import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.assertTrue;
+import static org.junit.jupiter.api.Assertions.assertThrows;
+
+import java.util.Arrays;
+import java.util.List;
+
+import org.junit.Test;
+
+public class EqualsTest {
+	
+	@Test
+	public void testEqualsTwoEmptyTrees() {
+		ArrayNTree<Integer> tree = new ArrayNTree<>(1);
+		ArrayNTree<Integer> tree2 = new ArrayNTree<>(1);
+		assertThrows(NullPointerException.class, () -> {
+			tree.equals(tree2);
+		});
+	}
+
+	/**
+	 * Caso de teste para o método equals a comparar duas árvores com a mesma
+	 * referência
+	 */
+	@Test
+	public void testEqualsTreesSameReferences() {
+		List<Integer> list1 = Arrays.asList(10, 20, 21);
+		ArrayNTree<Integer> tree = new ArrayNTree<>(list1, 3);
+		ArrayNTree<Integer> tree2 = tree;
+
+		boolean equals = tree2.equals(tree);
+		assertTrue(equals);
+	}
+
+	/**
+	 * Caso de teste para o método equals a comparar duas árvores iguais
+	 */
+	@Test
+	public void testEqualsEqualTrees() {
+		List<Integer> list1 = Arrays.asList(10, 20, 21);
+		ArrayNTree<Integer> tree = new ArrayNTree<>(list1, 3);
+		ArrayNTree<Integer> tree2 = new ArrayNTree<>(list1, 3);
+
+		boolean equals = tree.equals(tree2);
+		assertTrue(equals);
+	}
+
+	/**
+	 * Caso de teste para o método equals a comparar duas árvores, com a primeira
+	 * superior à segunda
+	 */
+	@Test
+	public void testEqualsFirstTreeBigger() {
+		List<Integer> list1 = Arrays.asList(10, 20, 21);
+		List<Integer> list2 = Arrays.asList(10, 20);
+		ArrayNTree<Integer> tree = new ArrayNTree<>(list1, 3);
+		ArrayNTree<Integer> tree2 = new ArrayNTree<>(list2, 2);
+
+		boolean equals = tree.equals(tree2);
+		assertFalse(equals);
+	}
+
+	/**
+	 * Caso de teste para o método equals a comparar duas árvores, com a segunda
+	 * superior à primeira
+	 */
+	@Test
+	public void testEqualsSecondTreeBigger() {
+		List<Integer> list1 = Arrays.asList(10, 20);
+		List<Integer> list2 = Arrays.asList(10, 20, 22);
+		ArrayNTree<Integer> tree = new ArrayNTree<>(list1, 2);
+		ArrayNTree<Integer> tree2 = new ArrayNTree<>(list2, 3);
+
+		boolean equals = tree.equals(tree2);
+		assertFalse(equals);
+	}
+
+	/**
+	 * Caso de teste para o método equals a comparar duas árvores diferentes
+	 */
+	@Test
+	public void testEqualsNotEqualTrees() {
+		List<Integer> list1 = Arrays.asList(10, 20, 21);
+		List<Integer> list2 = Arrays.asList(10, 20, 22);
+		ArrayNTree<Integer> tree = new ArrayNTree<>(list1, 3);
+		ArrayNTree<Integer> tree2 = new ArrayNTree<>(list2, 3);
+
+		boolean equals = tree.equals(tree2);
+		assertFalse(equals);
+	}
+
+	/**
+	 * Caso de teste para o método equals a comparar uma árvore com um outro objeto
+	 */
+	@Test
+	public void testEqualsObjectOther() {
+		List<Integer> list1 = Arrays.asList(10, 20, 21);
+		ArrayNTree<Integer> tree = new ArrayNTree<>(list1, 3);
+
+		boolean equals = tree.equals(0);
+		assertFalse(equals);
+	}
+
+	/**
+	 * Caso de teste para o método equals para uma árvore cujos elementos intersetam
+	 * parte dos elementos de uma árvore maior
+	 */
+	@Test
+	public void testEqualsTreeContainsOther() {
+		List<Integer> list1 = Arrays.asList(10, 20, 21, 30, 35, 40);
+		List<Integer> list2 = Arrays.asList(10, 21, 30, 35);
+		ArrayNTree<Integer> tree = new ArrayNTree<>(list1, 3);
+		ArrayNTree<Integer> tree2 = new ArrayNTree<>(list2, 3);
+
+		boolean equals = tree.equals(tree2);
+		assertFalse(equals);
+	}
+	
+	@Test
+	public void test() {
+		NTree<Integer> a = new ArrayNTree<>(2);
+	}
+}

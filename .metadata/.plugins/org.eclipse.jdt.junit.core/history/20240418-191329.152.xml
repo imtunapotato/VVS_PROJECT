@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="EdgePairCoverage" project="vvs_2324_assignment_1" tests="2" started="2" failures="0" errors="0" ignored="0">
+  <testsuite name="sut.EdgePairCoverage" time="0.0" uniqueid="[engine:junit-vintage]/[runner:sut.EdgePairCoverage]">
+    <testcase name="TestOneThreeFour" classname="sut.EdgePairCoverage" time="0.0" displayname="TestOneThreeFour" uniqueid="[engine:junit-vintage]/[runner:sut.EdgePairCoverage]/[test:TestOneThreeFour(sut.EdgePairCoverage)]"/>
+    <testcase name="testOneTwo" classname="sut.EdgePairCoverage" time="0.0" displayname="testOneTwo" uniqueid="[engine:junit-vintage]/[runner:sut.EdgePairCoverage]/[test:testOneTwo(sut.EdgePairCoverage)]"/>
+  </testsuite>
+</testrun>

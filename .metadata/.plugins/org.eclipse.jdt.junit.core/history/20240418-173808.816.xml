@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="EqualsTest" project="vvs_2324_assignment_1" tests="6" started="6" failures="0" errors="0" ignored="0">
+  <testsuite name="sut.EqualsTest" time="0.0" uniqueid="[engine:junit-vintage]/[runner:sut.EqualsTest]">
+    <testcase name="testEqualsEqualTrees" classname="sut.EqualsTest" time="0.0" displayname="testEqualsEqualTrees" uniqueid="[engine:junit-vintage]/[runner:sut.EqualsTest]/[test:testEqualsEqualTrees(sut.EqualsTest)]"/>
+    <testcase name="testEqualsTwoEmptyTrees" classname="sut.EqualsTest" time="0.0" displayname="testEqualsTwoEmptyTrees" uniqueid="[engine:junit-vintage]/[runner:sut.EqualsTest]/[test:testEqualsTwoEmptyTrees(sut.EqualsTest)]"/>
+    <testcase name="testEqualsSecondTreeBigger" classname="sut.EqualsTest" time="0.0" displayname="testEqualsSecondTreeBigger" uniqueid="[engine:junit-vintage]/[runner:sut.EqualsTest]/[test:testEqualsSecondTreeBigger(sut.EqualsTest)]"/>
+    <testcase name="testEqualsFirstTreeBigger" classname="sut.EqualsTest" time="0.0" displayname="testEqualsFirstTreeBigger" uniqueid="[engine:junit-vintage]/[runner:sut.EqualsTest]/[test:testEqualsFirstTreeBigger(sut.EqualsTest)]"/>
+    <testcase name="testEqualsTreesSameReferences" classname="sut.EqualsTest" time="0.0" displayname="testEqualsTreesSameReferences" uniqueid="[engine:junit-vintage]/[runner:sut.EqualsTest]/[test:testEqualsTreesSameReferences(sut.EqualsTest)]"/>
+    <testcase name="testEqualsNotEqualTrees" classname="sut.EqualsTest" time="0.0" displayname="testEqualsNotEqualTrees" uniqueid="[engine:junit-vintage]/[runner:sut.EqualsTest]/[test:testEqualsNotEqualTrees(sut.EqualsTest)]"/>
+  </testsuite>
+</testrun>

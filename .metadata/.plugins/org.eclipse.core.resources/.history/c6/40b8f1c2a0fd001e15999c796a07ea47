@@ -1,0 +1,29 @@
+package sut;
+
+import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.assertTrue;
+
+import org.junit.Test;
+
+public class EqualsTest {
+
+	@Test
+	public void testEquals() {
+		ArrayNTree<Integer> a = new ArrayNTree<Integer>(2);
+		ArrayNTree<Integer> b = a;
+		assertTrue(a.equals(b));
+	}
+	
+	@Test
+	public void testNTreeEquals() {
+		ArrayNTree<Integer> a = new ArrayNTree<Integer>(1,2);
+		ArrayNTree<Integer> b = new ArrayNTree<Integer>(1,2);
+		assertTrue(a.equals(b)); 
+	}
+	@Test
+	public void testNTreeNotEquals() {
+		ArrayNTree<Integer> a = new ArrayNTree<Integer>(1,2);
+		ArrayNTree<Integer> b = new ArrayNTree<Integer>(2,2);
+		assertFalse(a.equals(b)); 
+	}
+}

@@ -1,0 +1,94 @@
+package sut;
+
+import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.assertTrue;
+import static org.junit.jupiter.api.Assertions.assertThrows;
+
+import java.util.Arrays;
+import java.util.List;
+
+import org.junit.Test;
+
+public class LBCoverage {
+	//Equals
+	
+	@Test
+	public void testEqualsEmpty() {
+		ArrayNTree<Integer> tree = new ArrayNTree<>(1);
+		ArrayNTree<Integer> tree2 = new ArrayNTree<>(1);
+		assertThrows(NullPointerException.class, () -> {
+			tree.equals(tree2);
+		});
+	}
+
+
+	@Test
+	public void testEqualReferences() {
+		List<Integer> list1 = Arrays.asList(10, 20, 21);
+		ArrayNTree<Integer> tree = new ArrayNTree<>(list1, 3);
+		ArrayNTree<Integer> tree2 = tree;
+
+		boolean equals = tree2.equals(tree);
+		assertTrue(equals);
+	}
+
+	@Test
+	public void testEqualTrees() {
+		List<Integer> list1 = Arrays.asList(10, 20, 21);
+		ArrayNTree<Integer> tree = new ArrayNTree<>(list1, 3);
+		ArrayNTree<Integer> tree2 = new ArrayNTree<>(list1, 3);
+
+		boolean equals = tree.equals(tree2);
+		assertTrue(equals);
+	}
+
+	@Test
+	public void testEqualsFirstTreeLarger() {
+		List<Integer> list1 = Arrays.asList(10, 20, 21);
+		List<Integer> list2 = Arrays.asList(10, 20);
+		ArrayNTree<Integer> tree = new ArrayNTree<>(list1, 3);
+		ArrayNTree<Integer> tree2 = new ArrayNTree<>(list2, 2);
+
+		boolean equals = tree.equals(tree2);
+		assertFalse(equals);
+	}
+
+	@Test
+	public void testEqualsFirstTreeSmaller() {
+		List<Integer> list1 = Arrays.asList(10, 20);
+		List<Integer> list2 = Arrays.asList(10, 20, 22);
+		ArrayNTree<Integer> tree = new ArrayNTree<>(list1, 2);
+		ArrayNTree<Integer> tree2 = new ArrayNTree<>(list2, 3);
+
+		boolean equals = tree.equals(tree2);
+		assertFalse(equals);
+	}
+
+	@Test
+	public void testNotEquals() {
+		List<Integer> list1 = Arrays.asList(10, 20, 21);
+		List<Integer> list2 = Arrays.asList(10, 20, 22);
+		ArrayNTree<Integer> tree = new ArrayNTree<>(list1, 3);
+		ArrayNTree<Integer> tree2 = new ArrayNTree<>(list2, 3);
+
+		boolean equals = tree.equals(tree2);
+		assertFalse(equals);
+	}
+
+	@Test
+	public void testEqualsOther() {
+		List<Integer> list1 = Arrays.asList(10, 20, 21);
+		ArrayNTree<Integer> tree = new ArrayNTree<>(list1, 3);
+
+		boolean equals = tree.equals(0);
+		assertFalse(equals);
+	}
+	
+	//contains
+	
+	@Test
+	public void testEmpty() {
+		ArrayNTree<Integer> tree = new ArrayNTree<>(2);
+	}
+
+}
