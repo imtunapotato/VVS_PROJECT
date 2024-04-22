@@ -5,8 +5,7 @@ import static org.junit.Assert.assertTrue;
 
 import org.junit.Test;
 
-public class EdgePairCoverage {
-
+public class PrimePathCoverage {
 	@Test
 	public void testOneTwo(){
 		ArrayNTree<Integer> tree1 = new ArrayNTree<>(2);
